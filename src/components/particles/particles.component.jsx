@@ -1,19 +1,20 @@
 import React from 'react'
 import Particles from 'react-particles-js'
-
+import './particles.styles.scss';
 
 
 const ParticleBg=()=> {
     return (
-<Particles
+<Particles className='particles'
 params={{
     "particles": {
         "number": {
             "value": 50
         },
         "size": {
-            "value": 3
+            "value": 6
         }
+        
     },
     "interactivity": {
         "events": {

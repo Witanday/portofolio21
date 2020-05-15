@@ -1,1 +1,62 @@
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+.main-menu{
+  height: 60px;
+  width: 100vw;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 100;
+background: #fff;
+padding-right: 5%;
+
+
+a{
+  text-decoration: none;
+  margin: 20px;
+
+  
+
+}
+.navLink{
+  color: #4a5568;
+
+}
+.menu-left{
+ 
+  .item{
+    display: flex;
+    align-items: center;
+    
+    a{
+      margin-left: 2%;
+
+      
+    }
+    img{
+      margin-left: 5%;
+    }
+  }
+
+}
+.menu-right{
+  display: flex;
+align-items: center;
+
+}
+
+}
+
+.menu-logo {
+  margin: 0!important;
+  width: 40px;
+  height: 30px;
+  background-image: url('../../assets/images/logo22.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30px;
+  font-size: 0;
+  border: 0;
+}

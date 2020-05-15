@@ -4,7 +4,10 @@ import './App.scss'
 import Header from './components/header/header-component'
 import Footer  from './components/footer/footer.component'
 import HomePage from './pages/home/home.component'
-import ParticlesBg  from './components/particles/particles.component'
+import ContactPage from './pages/contact/contact'
+import AboutPage from './pages/about/about';
+
+import ProjectPage from './pages/projects/projects.component';
 class App extends Component{
 
 
@@ -12,15 +15,23 @@ class App extends Component{
 
     return(
       <div  className='main-app'>
-      <ParticlesBg className='particles-bg' />
-        <Header />
-          <Switch>
-            <Route exact path='/' component={HomePage} />
+    
+      <Header  />
+     
+        <div className='main-container'>
         
         
-          </Switch>
+        <Switch>
+          <Route exact path='/' component={HomePage} />
+          <Route  path='/projects' component={ProjectPage} />
+          <Route  path='/contact' component={ContactPage} />
+          <Route  path='/about' component={AboutPage} />
+      
+        </Switch>
 
-        <Footer />
+      <Footer />
+        </div>
+     
       
       </div>
     )

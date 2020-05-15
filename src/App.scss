@@ -1,15 +1,42 @@
+html {
+    box-sizing: border-box;
+    font-size: 14px;
+  
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
 .main-app{
+ 
     width: 100vw;
     height: 100vh;
-    position: relative;
-    top: 0;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
-    background-blend-mode: multiply,multiply;
+    background-color: #f6f6f6;
+    color: #222;
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  
+   
 
-    .particles-bg{
-        
-        position: fixed;
-        top: 0;
-        z-index: -10;
+  
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .header{
+     
+
     }
 }

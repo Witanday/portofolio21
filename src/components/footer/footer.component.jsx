@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './footer.style.scss';
 
 const Footer = ()=>{
 
@@ -8,11 +9,11 @@ const Footer = ()=>{
         return year
     }
     return(
-        <footer class="bg-light py-2 fixed-bottom">
+        <div class="footer">
         <div class="container">
           <div class="small text-center text-muted">`Copyright &copy;  {getYear()}- Witanday.io`</div>
         </div>
-      </footer>
+      </div>
     )
 }
            

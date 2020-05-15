@@ -1,10 +1,11 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import './button.styles.scss'
 
-const CustomButton=()=> {
+const CustomButton=({children , simpleBtn,to ,...otherprops})=> {
     return (
         
-        <Link to='/' class="waves-effect waves-light btn">button</Link>
+        <Link to={to} className={simpleBtn} {...otherprops}>{children}</Link>
        
     )
 }
