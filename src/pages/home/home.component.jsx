@@ -18,7 +18,7 @@ const HomePage =({simpleBtn})=> {
                 <br/>Highly experienced in designing and developing mobile friendly web-applications.
                 </p>
                 
-                <CustomButton to='/' className={`${simpleBtn}`}>Learn more here <span className='arrow'>&#8674;</span></CustomButton>
+                <CustomButton to='/projects' className={`${simpleBtn}`}>Learn more here <span className='arrow'>&#8674;</span></CustomButton>
           
                 </div>
         </Grid.Column>
