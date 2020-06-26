@@ -1,6 +1,4 @@
-const express= require('express');
-
-const server= express();
+const server= require('./api/middleware')
 
 
 const PORT= process.env.PORT || 8080
